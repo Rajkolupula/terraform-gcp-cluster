@@ -30,6 +30,8 @@ resource "google_container_cluster" "primary" {
   # This creates nodes in only one zone, significantly reducing resource usage.
   location = "us-central1-a"
 
+  deletion_protection = false
+
   # The number of nodes to create in this cluster's default node pool.
   initial_node_count = 2
 
