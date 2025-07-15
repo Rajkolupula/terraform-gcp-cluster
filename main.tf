@@ -12,7 +12,7 @@ terraform {
 provider "google" {
   # --- ⚠️ REQUIRED ---
   # Replace "your-gcp-project-id" with your actual Google Cloud Project ID.
-  project = "inspired-rock-462006-e2"
+  project = "new-project-462710"
 
   # --- Optional ---
   # You can change the region to your preferred location.
