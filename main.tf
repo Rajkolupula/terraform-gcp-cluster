@@ -1,4 +1,4 @@
-resource "google_compute_instance" "vm_instance" {
+resource "new-project-462710" "vm_instance" {
   name         = "my-vm"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
