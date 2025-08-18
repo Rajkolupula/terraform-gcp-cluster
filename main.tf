@@ -67,7 +67,7 @@ resource "google_compute_firewall" "ssh" {
 }
 
 resource "google_storage_bucket" "bucket" {
-  name          = "my-unique-bucket-name"  # Must be globally unique
+  name          = "pk-bucket"  # Must be globally unique
   location      = "US"                     # Storage region
   force_destroy = true                     # Allows bucket deletion even if not empty
   uniform_bucket_level_access = true       # Enforces uniform bucket-level access
