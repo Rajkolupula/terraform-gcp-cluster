@@ -12,7 +12,7 @@ terraform {
 provider "google" {
   # --- ⚠️ REQUIRED ---
   # Replace "your-gcp-project-id" with your actual Google Cloud Project ID.
-  project = "new-project-462710"
+  project = "promising-balm-470808-m6"
 
   # --- Optional ---
   # You can change the region to your preferred location.
