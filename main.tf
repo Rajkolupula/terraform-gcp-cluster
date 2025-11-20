@@ -44,7 +44,7 @@ resource "google_container_cluster" "primary" {
 
     # Explicitly set a smaller disk size to further reduce resource consumption.
     disk_size_gb = 30
-    service_account = "Compute Engine default service account"
+    service_account = "684803707336-compute@developer.gserviceaccount.com"
     # Standard OAuth scopes required for GKE nodes to function correctly.
     oauth_scopes = [
       "https://www.googleapis.com/auth/cloud-platform"
