@@ -12,7 +12,7 @@ terraform {
 provider "google" {
   # --- ⚠️ REQUIRED ---
   # Replace "your-gcp-project-id" with your actual Google Cloud Project ID.
-  project = "promising-balm-470808-m6"
+  project = "winter-monolith-477705-m8"
 
   # --- Optional ---
   # You can change the region to your preferred location.
@@ -44,7 +44,7 @@ resource "google_container_cluster" "primary" {
 
     # Explicitly set a smaller disk size to further reduce resource consumption.
     disk_size_gb = 30
-    service_account = "684803707336-compute@developer.gserviceaccount.com"
+    service_account = "932157800090-compute@developer.gserviceaccount.com"
     # Standard OAuth scopes required for GKE nodes to function correctly.
     oauth_scopes = [
       "https://www.googleapis.com/auth/cloud-platform"
